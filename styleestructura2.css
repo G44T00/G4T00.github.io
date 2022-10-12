@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 120px;
+    margin-top: 118px;
+    margin-bottom: 10px;
+    background: #202023ce;
+}
+
+.contentdi {
+    padding: 30px;
+}
+
+#logo{
+    top: 30px;
+    left: 30px;
+    width: 200px;
+    height: 60px;
+    background: rgb(216, 216, 223);
+    position: absolute;
+}
+
+.circle{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    border-radius: 100%;
+    background: rgb(216, 216, 223);
+}
+
+#circle1{
+top: 40px;
+right: 120px;
+}
+
+#circle2{
+    top: 40px;
+    right: 71px;
+}
+
+#circle3{
+    top: 40px;
+    right: 19px;
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 45px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+nav > ul{
+    width: 1010px;
+    height: 45px;
+    background: rgba(250, 248, 248, 0);
+}
+
+nav > ul li{
+    float: left;
+    width: 198.5px;
+    height: 45px;
+    margin: 0 2px 0 0;
+    background: rgba(32, 32, 35, 0.436);
+}
+
+#top{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 192px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#top  ul{
+    width: 1015px;
+    position: absolute;
+}
+
+#top > ul li{
+    width: 327px;
+    height: 192px;
+    float: left;
+    margin: 0 10px 0 0;
+    background: rgba(32, 32, 35, 0.511);
+}
+
+.section{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 453px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+aside#izq{
+    width: 200px;
+    height: 453px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(32, 32, 35, 0.511);
+}
+
+.section .article{
+    width: 600px;
+    height: 453px;
+    top: 0;
+    left: 200px;
+    position: absolute;
+    background: #202023ce;
+}
+aside#der{
+    width: 200px;
+    height: 453px;
+    top: 0;
+    right: 0;
+    position: absolute;
+    background: rgba(32, 32, 35, 0.511);
+}
+
+footer{
+    position: relative;
+    margin: auto;
+    width: 1000px;
+    height: 60px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background: #202023ce; 
+    
+}
